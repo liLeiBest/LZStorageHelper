@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LZStorageHelper_Example' do
+  pod 'LZStorageHelper', :path => '../'
+
+  target 'LZStorageHelper_Tests' do
+    inherit! :search_paths
+
+  end
+end

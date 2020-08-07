@@ -1,0 +1,20 @@
+PODS:
+  - LZStorageHelper (0.1.0):
+    - LZStorageHelper/File (= 0.1.0)
+    - LZStorageHelper/UserDefaults (= 0.1.0)
+  - LZStorageHelper/File (0.1.0)
+  - LZStorageHelper/UserDefaults (0.1.0)
+
+DEPENDENCIES:
+  - LZStorageHelper (from `../`)
+
+EXTERNAL SOURCES:
+  LZStorageHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LZStorageHelper: e059890ef5eab3df425760afc8d8a50f660a778e
+
+PODFILE CHECKSUM: 6055119e6f87623fbca4df9204eaed58dd7a2625
+
+COCOAPODS: 1.9.1

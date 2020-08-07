@@ -1,0 +1,6 @@
+framework module LZStorageHelper {
+  umbrella header "LZStorageHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
