@@ -97,40 +97,48 @@
 }
 
 /** 保存用户偏好设置 */
-- (void)setObject:(id)object forKey:(NSString *)defaultName {
+- (void)setObject:(id)object
+           forKey:(NSString *)defaultName {
 	
     [self.userDefaults setObject:object forKey:defaultName];
     [self.userDefaults synchronize];
 }
 
 /** 将 NSInteger 转换成 NSNumber，保存到用户偏好设置 */
-- (void)setInteger:(NSInteger)value forKey:(NSString *)defaultName {
+- (void)setInteger:(NSInteger)value
+            forKey:(NSString *)defaultName {
 	
     [self.userDefaults setInteger:value forKey:defaultName];
     [self.userDefaults synchronize];
 }
 
 /** 将 float 转换成 NSNumber，保存到用户偏好设置 */
-- (void)setFloat:(float)value forKey:(NSString *)defaultName {
+- (void)setFloat:(float)value
+          forKey:(NSString *)defaultName {
 	
     [self.userDefaults setFloat:value forKey:defaultName];
     [self.userDefaults synchronize];
 }
 
 /** 将 double 转换成 NSNumber，保存到用户偏好设置 */
-- (void)setDouble:(double)value forKey:(NSString *)defaultName {
+- (void)setDouble:(double)value
+           forKey:(NSString *)defaultName {
 	
     [self.userDefaults setDouble:value forKey:defaultName];
     [self.userDefaults synchronize];
 }
 
 /** 将 BOOL 转换成 NSString，保存到用户偏好设置 */
-- (void)setBool:(BOOL)value forKey:(NSString *)defaultName {
-    [self.userDefaults setObject:value ? @"1" : @"0" forKey:defaultName];
+- (void)setBool:(BOOL)value
+         forKey:(NSString *)defaultName {
+    
+    [self.userDefaults setBool:value forKey:defaultName];
+    [self.userDefaults synchronize];
 }
 
 /** 将 NSUR 归档成 NSData，保存到用户偏好设置 */
-- (void)setURL:(NSURL *)url forKey:(NSString *)defaultName {
+- (void)setURL:(NSURL *)url
+        forKey:(NSString *)defaultName {
 	
     [self.userDefaults setURL:url forKey:defaultName];
     [self.userDefaults synchronize];
@@ -160,13 +168,7 @@
 
 /** 将用户偏好号 defaultName 对应的值转为 BOOL 类型 */
 - (BOOL)boolForKey:(NSString *)defaultName {
-
-    id value = [self.userDefaults objectForKey:defaultName];
-    if ([value isKindOfClass:[NSString class]]) {
-        return [value isEqualToString:@"1"] ? YES : NO;
-    } else {
-        return value ? YES : NO;
-    }
+    return [self.userDefaults boolForKey:defaultName];
 }
 
 /**  获取 setURL:forKey 保存的 URL */
@@ -176,15 +178,15 @@
 
 /** 移除用户设置中 defaultName 项 */
 - (void)removeValueForKey:(NSString *)defaultName {
+    
     [self.userDefaults removeObjectForKey:defaultName];
+    [self.userDefaults synchronize];
 }
 
 /** 移除用户设置中 defaultName 项 */
 - (void)removeValuesForKeys:(NSArray *)defaultNames {
-	
     __weak typeof(self) weakSelf = self;
-    [defaultNames enumerateObjectsUsingBlock:
-	 ^(NSString *key, NSUInteger idx, BOOL * _Nonnull stop) {
+    [defaultNames enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL * _Nonnull stop) {
         [weakSelf removeValueForKey:key];
     }];
 }
@@ -196,7 +198,8 @@
 }
 
 /** 添加键值变化的监听 */
-- (void)addObserver:(NSObject *)observer forDefaultName:(NSString *)defaultName {
+- (void)addObserver:(NSObject *)observer
+     forDefaultName:(NSString *)defaultName {
 	[self.userDefaults addObserver:observer
 						forKeyPath:defaultName
 						   options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew
@@ -204,7 +207,8 @@
 }
 
 /** 移除键值变化的监听 */
-- (void)removeObserver:(NSObject *)observer forDefaultName:(NSString *)defaultName {
+- (void)removeObserver:(NSObject *)observer
+        forDefaultName:(NSString *)defaultName {
 	[self.userDefaults removeObserver:observer forKeyPath:defaultName];
 }
 
@@ -234,7 +238,6 @@
 	[arrM enumerateObjectsUsingBlock: ^(id obj, NSUInteger idx, BOOL *stop) {
 		[self.userDefaults removeObserver:obj forKeyPath:defaultName];
 	}];
-	
 	[self.userDefaultsObserverHandlers removeObjectForKey:defaultName];
 }
 
@@ -246,7 +249,6 @@
 			[self.userDefaults removeObserver:obj forKeyPath:key];
 		}];
 	}];
-
 	[self.userDefaultsObserverHandlers removeAllObjects];
 }
 

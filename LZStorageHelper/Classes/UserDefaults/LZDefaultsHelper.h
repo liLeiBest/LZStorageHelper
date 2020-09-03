@@ -41,7 +41,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
 @param object      NSString, NSData, NSNumber, NSDate, NSArray, and NSDictionary
 @param defaultName identifie
 */
-- (void)setObject:(id)object forKey:(NSString *)defaultName;
+- (void)setObject:(id)object
+           forKey:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -51,7 +52,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param value       BOOL
  @param defaultName identifie
  */
-- (void)setInteger:(NSInteger)value forKey:(NSString *)defaultName;
+- (void)setInteger:(NSInteger)value
+            forKey:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -61,7 +63,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param value       BOOL
  @param defaultName identifie
  */
-- (void)setFloat:(float)value forKey:(NSString *)defaultName;
+- (void)setFloat:(float)value
+          forKey:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -71,7 +74,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param value       BOOL
  @param defaultName identifie
  */
-- (void)setDouble:(double)value forKey:(NSString *)defaultName;
+- (void)setDouble:(double)value
+           forKey:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -82,7 +86,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param defaultName identifie
  @remark            @"1" : YES; @"0" : NO.
  */
-- (void)setBool:(BOOL)value forKey:(NSString *)defaultName;
+- (void)setBool:(BOOL)value
+         forKey:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -92,7 +97,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param url         NSURL
  @param defaultName identifie
  */
-- (void)setURL:(NSURL *)url forKey:(NSString *)defaultName;
+- (void)setURL:(NSURL *)url
+        forKey:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -197,7 +203,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param defaultName identifie
  @remark 不需要监听时，必须手动调用 removeObserver:forDefaultName: 移除
  */
-- (void)addObserver:(NSObject *)observer forDefaultName:(NSString *)defaultName;
+- (void)addObserver:(NSObject *)observer
+     forDefaultName:(NSString *)defaultName;
 
 /**
  @author Lilei
@@ -207,7 +214,8 @@ typedef void(^LZDefaultsKVOHandler)(id oldValue, id newValue);
  @param observer 监听者
  @param defaultName identifie
  */
-- (void)removeObserver:(NSObject *)observer forDefaultName:(NSString *)defaultName;
+- (void)removeObserver:(NSObject *)observer
+        forDefaultName:(NSString *)defaultName;
 
 /**
  @author Lilei
