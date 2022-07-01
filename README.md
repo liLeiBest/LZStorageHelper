@@ -1,6 +1,6 @@
 # LZStorageHelper
 
-[![CI Status](https://img.shields.io/travis/lilei_hapy@163.com/LZStorageHelper.svg?style=flat)](https://travis-ci.org/lilei_hapy@163.com/LZStorageHelper)
+[![CI Status](https://img.shields.io/travis/lilei0502@139.com/LZStorageHelper.svg?style=flat)](https://travis-ci.org/lilei0502@139.com/LZStorageHelper)
 [![Version](https://img.shields.io/cocoapods/v/LZStorageHelper.svg?style=flat)](https://cocoapods.org/pods/LZStorageHelper)
 [![License](https://img.shields.io/cocoapods/l/LZStorageHelper.svg?style=flat)](https://cocoapods.org/pods/LZStorageHelper)
 [![Platform](https://img.shields.io/cocoapods/p/LZStorageHelper.svg?style=flat)](https://cocoapods.org/pods/LZStorageHelper)
@@ -22,7 +22,7 @@ pod 'LZStorageHelper'
 
 ## Author
 
-lilei_hapy@163.com, lilei_hapy@163.com
+lilei, lilei0502@139.com
 
 ## License
 

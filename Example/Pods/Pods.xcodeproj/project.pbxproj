@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		317530B1DF6EBB5FF51918635D942442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		36D33844BBD4267F8640D6705B2A63B7 /* Pods-LZStorageHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FAA10677FDB2EEA265449FFBD754D3 /* Pods-LZStorageHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DC12FC9C1812D6204E6E1A5F81C012D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		549696FB1691A402CC1384F473A2DBDF /* Pods-LZStorageHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75877097442DA2714DC0BEB91B88BC1A /* Pods-LZStorageHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56985B258E56D7F7DD5DB48D19D0EEC7 /* LZDefaultsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DB022C720A445DFAF55D8077F55B2C0E /* LZDefaultsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AE1250D1CA5E1F583CBC067E7FEFDB8 /* Pods-LZStorageHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B29166C46058AA4E30C38E274D3772 /* Pods-LZStorageHelper_Tests-dummy.m */; };
-		98A4263B53E4944C37334421F4226CAB /* LZDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84FDE370BBC2DD07FE5E0B66C90B3E /* LZDefaultsHelper.m */; };
-		B23C59A135E36E7117C9BDA86F18342F /* LZStorageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 918EBA0CBDDD50A149320A36961B164C /* LZStorageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB466710800AAC00FA4F489B47261F10 /* Pods-LZStorageHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE175CA1915BF46DA82A1891CD5BD4 /* Pods-LZStorageHelper_Example-dummy.m */; };
-		BD6E18759F01EFABE5504BD4BFEA7B6B /* LZStorageHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A07680484197B4895B8C08D5C942AAE6 /* LZStorageHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE2F06E5C93F691720860702B46AA9CB /* LZFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F309A6BF2DC43D6895A040C30EE5CE /* LZFileHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBE275DE12CBD61D6C0B7AEE0FE89E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F19E3B88089184A2868324930C3E36CD /* LZFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7F2C0E936F80DD88DD72CBB96A761 /* LZFileHelper.m */; };
-		F81C8E2705E08504C535A44E6D41C8B9 /* LZStorageHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96648B2D0BDA77E887E70D2EDEDB41 /* LZStorageHelper-dummy.m */; };
+		2AC6141977F7B99A3FF8D27ADBCE1B31 /* LZStorageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 918EBA0CBDDD50A149320A36961B164C /* LZStorageHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33EF2717432B6C5FC37099B1A94D425C /* Pods-LZStorageHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B29166C46058AA4E30C38E274D3772 /* Pods-LZStorageHelper_Tests-dummy.m */; };
+		58743687856DB766A5D7DB92D42B8523 /* LZFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F309A6BF2DC43D6895A040C30EE5CE /* LZFileHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594207934BB6855DCDD088FFEF9E9E08 /* LZStorageHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96648B2D0BDA77E887E70D2EDEDB41 /* LZStorageHelper-dummy.m */; };
+		87342753D719F4222656625C426864FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A184D4F8BB5AFF21984650CC0499DDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98740BE87FBBBE112AAE4105B18A3805 /* Pods-LZStorageHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75877097442DA2714DC0BEB91B88BC1A /* Pods-LZStorageHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC0384B4ECEC61729EF77F477E25D6D /* Pods-LZStorageHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FAA10677FDB2EEA265449FFBD754D3 /* Pods-LZStorageHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B174EBF460267E4E8E0A76624D1591B4 /* LZDefaultsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DB022C720A445DFAF55D8077F55B2C0E /* LZDefaultsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99BD5891274AC1694112ABC0B49997F /* LZStorageHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A07680484197B4895B8C08D5C942AAE6 /* LZStorageHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7017CC6E25005698E72DCFF1B30D24 /* LZFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7F2C0E936F80DD88DD72CBB96A761 /* LZFileHelper.m */; };
+		F6CE96BB12F00AF4F7FE6BA7708CCE80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F6D00CC5171C6AB5C6CCD1CF6FBDC4B0 /* Pods-LZStorageHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CE175CA1915BF46DA82A1891CD5BD4 /* Pods-LZStorageHelper_Example-dummy.m */; };
+		FBDC7A3BF48193B8625A6720BA93715F /* LZDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D84FDE370BBC2DD07FE5E0B66C90B3E /* LZDefaultsHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6745EC5628657F71B21DBA263F610656 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9B534DEC1449E648BE7345183666E6F;
-			remoteInfo = LZStorageHelper;
-		};
-		90F91EE1A8519B066D8BB971CCEAC14E /* PBXContainerItemProxy */ = {
+		4C1AC096480B6E64D93C07E9EDBA1A24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1DA2926DB4A5C95CC94B144AF20FAD2;
 			remoteInfo = "Pods-LZStorageHelper_Example";
+		};
+		ABA561933FC793DA43DB8B4C6A6117C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B534DEC1449E648BE7345183666E6F;
+			remoteInfo = LZStorageHelper;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,7 +47,6 @@
 		1E6A04F2AC28A58CCE74F574257A95B5 /* LZStorageHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZStorageHelper.modulemap; sourceTree = "<group>"; };
 		3068057923515E8FFB591A858360989A /* Pods-LZStorageHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZStorageHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		30765F076694AF7DD97713DD6DB15E81 /* Pods-LZStorageHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZStorageHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F309A6BF2DC43D6895A040C30EE5CE /* LZFileHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZFileHelper.h; path = LZStorageHelper/Classes/File/LZFileHelper.h; sourceTree = "<group>"; };
 		3956A0BB7A045B29E71E4DCFEB3A483F /* Pods-LZStorageHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZStorageHelper_Example.modulemap"; sourceTree = "<group>"; };
 		3A1C3367EAD31E1638D9E21E85E858C8 /* Pods-LZStorageHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZStorageHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -55,12 +54,13 @@
 		3CC445341E49AF022F93B07841629E74 /* LZStorageHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZStorageHelper-prefix.pch"; sourceTree = "<group>"; };
 		41054F3A12DB31108D328D05C76821E7 /* Pods-LZStorageHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZStorageHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		48B29166C46058AA4E30C38E274D3772 /* Pods-LZStorageHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZStorageHelper_Tests-dummy.m"; sourceTree = "<group>"; };
-		50D0A3661C10536BFCF6621A27B232B2 /* Pods_LZStorageHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZStorageHelper_Example.framework; path = "Pods-LZStorageHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D0A3661C10536BFCF6621A27B232B2 /* Pods-LZStorageHelper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LZStorageHelper_Example"; path = Pods_LZStorageHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		576848575A6A19192E7DDFA3171EBE52 /* Pods-LZStorageHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZStorageHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		598A486C50576F26827A813F6B5225B8 /* Pods-LZStorageHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZStorageHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B200C85B1045396694D0C63FBFF636E /* LZStorageHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZStorageHelper.debug.xcconfig; sourceTree = "<group>"; };
 		70CE175CA1915BF46DA82A1891CD5BD4 /* Pods-LZStorageHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZStorageHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		73C0CBE61936F6F443C826CB84DAB298 /* Pods_LZStorageHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZStorageHelper_Tests.framework; path = "Pods-LZStorageHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C0CBE61936F6F443C826CB84DAB298 /* Pods-LZStorageHelper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LZStorageHelper_Tests"; path = Pods_LZStorageHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75877097442DA2714DC0BEB91B88BC1A /* Pods-LZStorageHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZStorageHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		8D84FDE370BBC2DD07FE5E0B66C90B3E /* LZDefaultsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZDefaultsHelper.m; path = LZStorageHelper/Classes/UserDefaults/LZDefaultsHelper.m; sourceTree = "<group>"; };
 		918EBA0CBDDD50A149320A36961B164C /* LZStorageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZStorageHelper.h; path = LZStorageHelper/Classes/LZStorageHelper.h; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		A357CBD10FB69E246F9569FA2F1ACF13 /* Pods-LZStorageHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZStorageHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A372336D7C24BDEDC87CFF022950EE02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AF110BC67D76875ECE97E563EF12B9A8 /* Pods-LZStorageHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZStorageHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BF52086C40E5CFBBDAE47CCA5CEC030F /* LZStorageHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZStorageHelper.framework; path = LZStorageHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF52086C40E5CFBBDAE47CCA5CEC030F /* LZStorageHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZStorageHelper; path = LZStorageHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9697BA2FC38808A29AC9521672A7E30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DB022C720A445DFAF55D8077F55B2C0E /* LZDefaultsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZDefaultsHelper.h; path = LZStorageHelper/Classes/UserDefaults/LZDefaultsHelper.h; sourceTree = "<group>"; };
 		DDBD0238268486DBFCD63AEC764A0A52 /* Pods-LZStorageHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZStorageHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -81,27 +81,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DC24AE905A1B405918CDF94C61903B1 /* Frameworks */ = {
+		17C67C0CDDA4E789FD3964199A7F1202 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				317530B1DF6EBB5FF51918635D942442 /* Foundation.framework in Frameworks */,
+				F6CE96BB12F00AF4F7FE6BA7708CCE80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C44AAFCFA73A24F64A215CDF5E1750F /* Frameworks */ = {
+		B1D1B711852F0FAC5ED5C7847AD69051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC12FC9C1812D6204E6E1A5F81C012D /* Foundation.framework in Frameworks */,
+				8A184D4F8BB5AFF21984650CC0499DDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4D72C11B3A75809C685F2962E9EF87B /* Frameworks */ = {
+		EB0B6951584F41F521DDD8BDD7868E8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE275DE12CBD61D6C0B7AEE0FE89E95 /* Foundation.framework in Frameworks */,
+				87342753D719F4222656625C426864FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +163,14 @@
 			path = "Example/Pods/Target Support Files/LZStorageHelper";
 			sourceTree = "<group>";
 		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		678AC4FF6C5D78F4FB1C9BD46148FF7D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,24 +214,6 @@
 			path = "Target Support Files/Pods-LZStorageHelper_Example";
 			sourceTree = "<group>";
 		};
-		AB57B02DAEF1E11156BDB4393CD5D18A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF52086C40E5CFBBDAE47CCA5CEC030F /* LZStorageHelper.framework */,
-				50D0A3661C10536BFCF6621A27B232B2 /* Pods_LZStorageHelper_Example.framework */,
-				73C0CBE61936F6F443C826CB84DAB298 /* Pods_LZStorageHelper_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C4A51B7C1E5BA3B204D61231B091F551 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,7 +228,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C4A51B7C1E5BA3B204D61231B091F551 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AB57B02DAEF1E11156BDB4393CD5D18A /* Products */,
+				E8806536120CBF55352EFCB89618770D /* Products */,
 				468A6935A5ACFB63A5EBE0881908C3A7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -246,38 +236,48 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8806536120CBF55352EFCB89618770D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF52086C40E5CFBBDAE47CCA5CEC030F /* LZStorageHelper */,
+				50D0A3661C10536BFCF6621A27B232B2 /* Pods-LZStorageHelper_Example */,
+				73C0CBE61936F6F443C826CB84DAB298 /* Pods-LZStorageHelper_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36D3B93E925326C4CE27D7321A8FCE8E /* Headers */ = {
+		0CD22B0B07DD7BDE2CC2FD827D2F22BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549696FB1691A402CC1384F473A2DBDF /* Pods-LZStorageHelper_Example-umbrella.h in Headers */,
+				B174EBF460267E4E8E0A76624D1591B4 /* LZDefaultsHelper.h in Headers */,
+				58743687856DB766A5D7DB92D42B8523 /* LZFileHelper.h in Headers */,
+				2AC6141977F7B99A3FF8D27ADBCE1B31 /* LZStorageHelper.h in Headers */,
+				D99BD5891274AC1694112ABC0B49997F /* LZStorageHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCF7182190E4CF85629F112351AE20FD /* Headers */ = {
+		6B3F370463AEA63A3B69BA24AC332692 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D33844BBD4267F8640D6705B2A63B7 /* Pods-LZStorageHelper_Tests-umbrella.h in Headers */,
+				98740BE87FBBBE112AAE4105B18A3805 /* Pods-LZStorageHelper_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F66D85121B25338831965929B1EC4345 /* Headers */ = {
+		C3658A2377A3737AA480F6C9849035FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56985B258E56D7F7DD5DB48D19D0EEC7 /* LZDefaultsHelper.h in Headers */,
-				BE2F06E5C93F691720860702B46AA9CB /* LZFileHelper.h in Headers */,
-				BD6E18759F01EFABE5504BD4BFEA7B6B /* LZStorageHelper-umbrella.h in Headers */,
-				B23C59A135E36E7117C9BDA86F18342F /* LZStorageHelper.h in Headers */,
+				9AC0384B4ECEC61729EF77F477E25D6D /* Pods-LZStorageHelper_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,31 +286,31 @@
 /* Begin PBXNativeTarget section */
 		7D0221CEE05ADE58D99DA2F02855E0B1 /* Pods-LZStorageHelper_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFF62510DE20695DE76D13D9B1D84270 /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Tests" */;
+			buildConfigurationList = C2FE04B272396BBE34AF408C6B866163 /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Tests" */;
 			buildPhases = (
-				DCF7182190E4CF85629F112351AE20FD /* Headers */,
-				265674B16CA9DFD61D469B3BA53F4FA5 /* Sources */,
-				5DC24AE905A1B405918CDF94C61903B1 /* Frameworks */,
-				3346011FF201FE0FC84FAD2A73392DDB /* Resources */,
+				C3658A2377A3737AA480F6C9849035FF /* Headers */,
+				F7247F244C356C3DCC9BAF2502053F5A /* Sources */,
+				B1D1B711852F0FAC5ED5C7847AD69051 /* Frameworks */,
+				DFB8173046F2EDBDB72B3887C814406F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E6C27CCFCEF6264F4300AE088A065B6E /* PBXTargetDependency */,
+				C15C8089533D76547F2DBC2310E1DEEC /* PBXTargetDependency */,
 			);
 			name = "Pods-LZStorageHelper_Tests";
-			productName = "Pods-LZStorageHelper_Tests";
-			productReference = 73C0CBE61936F6F443C826CB84DAB298 /* Pods_LZStorageHelper_Tests.framework */;
+			productName = Pods_LZStorageHelper_Tests;
+			productReference = 73C0CBE61936F6F443C826CB84DAB298 /* Pods-LZStorageHelper_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9B534DEC1449E648BE7345183666E6F /* LZStorageHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC1C500F3344D2489E655A7C405B4643 /* Build configuration list for PBXNativeTarget "LZStorageHelper" */;
+			buildConfigurationList = 46B0B156F2B50BF295048BCCAF0D405E /* Build configuration list for PBXNativeTarget "LZStorageHelper" */;
 			buildPhases = (
-				F66D85121B25338831965929B1EC4345 /* Headers */,
-				91E6EE4082144A2DA5AB073CB265766B /* Sources */,
-				7C44AAFCFA73A24F64A215CDF5E1750F /* Frameworks */,
-				AA705230FF562F08B6F2D480E5405888 /* Resources */,
+				0CD22B0B07DD7BDE2CC2FD827D2F22BC /* Headers */,
+				FF03F67F55692A77F2E5EAA4BD3AA9DF /* Sources */,
+				17C67C0CDDA4E789FD3964199A7F1202 /* Frameworks */,
+				57A233D5BAF95E254A1927E7E957624F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -318,26 +318,26 @@
 			);
 			name = LZStorageHelper;
 			productName = LZStorageHelper;
-			productReference = BF52086C40E5CFBBDAE47CCA5CEC030F /* LZStorageHelper.framework */;
+			productReference = BF52086C40E5CFBBDAE47CCA5CEC030F /* LZStorageHelper */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1DA2926DB4A5C95CC94B144AF20FAD2 /* Pods-LZStorageHelper_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 475EEDC6331A05F60AFEF0C462F8669C /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Example" */;
+			buildConfigurationList = 4438B211D15BDA7C05D85FC722AA944C /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Example" */;
 			buildPhases = (
-				36D3B93E925326C4CE27D7321A8FCE8E /* Headers */,
-				4570A7C7FD1F502846A2528472A47FD4 /* Sources */,
-				C4D72C11B3A75809C685F2962E9EF87B /* Frameworks */,
-				F090C47A744E1215B231C0CE81E0C770 /* Resources */,
+				6B3F370463AEA63A3B69BA24AC332692 /* Headers */,
+				F4C3CAD0581174631F85D3C6A5345BF2 /* Sources */,
+				EB0B6951584F41F521DDD8BDD7868E8D /* Frameworks */,
+				BC96743B375D00E9BFF6A54C40AF9122 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				009951DAD4F1AA2E468563B109C4AAFC /* PBXTargetDependency */,
+				5249B9914F59532AB7E4CEAD1685586D /* PBXTargetDependency */,
 			);
 			name = "Pods-LZStorageHelper_Example";
-			productName = "Pods-LZStorageHelper_Example";
-			productReference = 50D0A3661C10536BFCF6621A27B232B2 /* Pods_LZStorageHelper_Example.framework */;
+			productName = Pods_LZStorageHelper_Example;
+			productReference = 50D0A3661C10536BFCF6621A27B232B2 /* Pods-LZStorageHelper_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,19 +346,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AB57B02DAEF1E11156BDB4393CD5D18A /* Products */;
+			productRefGroup = E8806536120CBF55352EFCB89618770D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -370,21 +370,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3346011FF201FE0FC84FAD2A73392DDB /* Resources */ = {
+		57A233D5BAF95E254A1927E7E957624F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA705230FF562F08B6F2D480E5405888 /* Resources */ = {
+		BC96743B375D00E9BFF6A54C40AF9122 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F090C47A744E1215B231C0CE81E0C770 /* Resources */ = {
+		DFB8173046F2EDBDB72B3887C814406F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,87 +394,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		265674B16CA9DFD61D469B3BA53F4FA5 /* Sources */ = {
+		F4C3CAD0581174631F85D3C6A5345BF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE1250D1CA5E1F583CBC067E7FEFDB8 /* Pods-LZStorageHelper_Tests-dummy.m in Sources */,
+				F6D00CC5171C6AB5C6CCD1CF6FBDC4B0 /* Pods-LZStorageHelper_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4570A7C7FD1F502846A2528472A47FD4 /* Sources */ = {
+		F7247F244C356C3DCC9BAF2502053F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB466710800AAC00FA4F489B47261F10 /* Pods-LZStorageHelper_Example-dummy.m in Sources */,
+				33EF2717432B6C5FC37099B1A94D425C /* Pods-LZStorageHelper_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91E6EE4082144A2DA5AB073CB265766B /* Sources */ = {
+		FF03F67F55692A77F2E5EAA4BD3AA9DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A4263B53E4944C37334421F4226CAB /* LZDefaultsHelper.m in Sources */,
-				F19E3B88089184A2868324930C3E36CD /* LZFileHelper.m in Sources */,
-				F81C8E2705E08504C535A44E6D41C8B9 /* LZStorageHelper-dummy.m in Sources */,
+				FBDC7A3BF48193B8625A6720BA93715F /* LZDefaultsHelper.m in Sources */,
+				EC7017CC6E25005698E72DCFF1B30D24 /* LZFileHelper.m in Sources */,
+				594207934BB6855DCDD088FFEF9E9E08 /* LZStorageHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		009951DAD4F1AA2E468563B109C4AAFC /* PBXTargetDependency */ = {
+		5249B9914F59532AB7E4CEAD1685586D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LZStorageHelper;
 			target = D9B534DEC1449E648BE7345183666E6F /* LZStorageHelper */;
-			targetProxy = 6745EC5628657F71B21DBA263F610656 /* PBXContainerItemProxy */;
+			targetProxy = ABA561933FC793DA43DB8B4C6A6117C8 /* PBXContainerItemProxy */;
 		};
-		E6C27CCFCEF6264F4300AE088A065B6E /* PBXTargetDependency */ = {
+		C15C8089533D76547F2DBC2310E1DEEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LZStorageHelper_Example";
 			target = F1DA2926DB4A5C95CC94B144AF20FAD2 /* Pods-LZStorageHelper_Example */;
-			targetProxy = 90F91EE1A8519B066D8BB971CCEAC14E /* PBXContainerItemProxy */;
+			targetProxy = 4C1AC096480B6E64D93C07E9EDBA1A24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0619042A8036F01F18BA16639F7449CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D2B4980DB0928D226B132D993C99A7 /* LZStorageHelper.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LZStorageHelper/LZStorageHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper.modulemap";
-				PRODUCT_MODULE_NAME = LZStorageHelper;
-				PRODUCT_NAME = LZStorageHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1B5978ADCAF89A21377D2F60FB7C3CA0 /* Debug */ = {
+		546580A3240DFD77BA687C1F79F0747F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF110BC67D76875ECE97E563EF12B9A8 /* Pods-LZStorageHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -502,10 +470,74 @@
 			};
 			name = Debug;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		5B6B17D00D9B52DFCD8DF1441ED5694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A53951A84F6A31C806F434FD7A8A8A9 /* Pods-LZStorageHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FE5E420F8E1AC9EFE3A6E4012EEBD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D2B4980DB0928D226B132D993C99A7 /* LZStorageHelper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZStorageHelper/LZStorageHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper.modulemap";
+				PRODUCT_MODULE_NAME = LZStorageHelper;
+				PRODUCT_NAME = LZStorageHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -528,6 +560,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -562,11 +595,11 @@
 			};
 			name = Release;
 		};
-		7D0659A49FF65BD0DB3232F4441C1716 /* Debug */ = {
+		C135E9A604E6AA037234A52D60B2300D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B200C85B1045396694D0C63FBFF636E /* LZStorageHelper.debug.xcconfig */;
+			baseConfigurationReference = 30765F076694AF7DD97713DD6DB15E81 /* Pods-LZStorageHelper_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -575,27 +608,63 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LZStorageHelper/LZStorageHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZStorageHelper_Example/Pods-LZStorageHelper_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper.modulemap";
-				PRODUCT_MODULE_NAME = LZStorageHelper;
-				PRODUCT_NAME = LZStorageHelper;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZStorageHelper_Example/Pods-LZStorageHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D00961C2A55F34E50F63AD82B80A09EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598A486C50576F26827A813F6B5225B8 /* Pods-LZStorageHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -618,6 +687,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -656,12 +726,10 @@
 			};
 			name = Debug;
 		};
-		8028BD8BAC50414A58C3145F185BBDEE /* Release */ = {
+		F9FD14A53E40AD43F35890DCF2892E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30765F076694AF7DD97713DD6DB15E81 /* Pods-LZStorageHelper_Example.release.xcconfig */;
+			baseConfigurationReference = 5B200C85B1045396694D0C63FBFF636E /* LZStorageHelper.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -670,87 +738,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LZStorageHelper_Example/Pods-LZStorageHelper_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LZStorageHelper/LZStorageHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LZStorageHelper_Example/Pods-LZStorageHelper_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/LZStorageHelper/LZStorageHelper.modulemap";
+				PRODUCT_MODULE_NAME = LZStorageHelper;
+				PRODUCT_NAME = LZStorageHelper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89EE22B5BA2B0391DECA13BEA2EF80F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A53951A84F6A31C806F434FD7A8A8A9 /* Pods-LZStorageHelper_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D7A16FFB2935AE69B0AB5264F0746DA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 598A486C50576F26827A813F6B5225B8 /* Pods-LZStorageHelper_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LZStorageHelper_Tests/Pods-LZStorageHelper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -760,11 +758,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		475EEDC6331A05F60AFEF0C462F8669C /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Example" */ = {
+		4438B211D15BDA7C05D85FC722AA944C /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B5978ADCAF89A21377D2F60FB7C3CA0 /* Debug */,
-				8028BD8BAC50414A58C3145F185BBDEE /* Release */,
+				546580A3240DFD77BA687C1F79F0747F /* Debug */,
+				C135E9A604E6AA037234A52D60B2300D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B0B156F2B50BF295048BCCAF0D405E /* Build configuration list for PBXNativeTarget "LZStorageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FD14A53E40AD43F35890DCF2892E72 /* Debug */,
+				5FE5E420F8E1AC9EFE3A6E4012EEBD28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -772,26 +779,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFF62510DE20695DE76D13D9B1D84270 /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Tests" */ = {
+		C2FE04B272396BBE34AF408C6B866163 /* Build configuration list for PBXNativeTarget "Pods-LZStorageHelper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7A16FFB2935AE69B0AB5264F0746DA6 /* Debug */,
-				89EE22B5BA2B0391DECA13BEA2EF80F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC1C500F3344D2489E655A7C405B4643 /* Build configuration list for PBXNativeTarget "LZStorageHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D0659A49FF65BD0DB3232F4441C1716 /* Debug */,
-				0619042A8036F01F18BA16639F7449CD /* Release */,
+				D00961C2A55F34E50F63AD82B80A09EF /* Debug */,
+				5B6B17D00D9B52DFCD8DF1441ED5694B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
