@@ -140,11 +140,19 @@
 
 /** 删除文件或文件夹 */
 - (BOOL)deleteAtPath:(NSString *)filePath {
-    NSAssert(nil != filePath && filePath.length, @"文件或文件夹不能空");
+    // 文件或文件夹路径为空
+    if (nil == filePath || 0 == filePath.length) {
+        return YES;
+    }
     NSFileManager *fileManager = [NSFileManager defaultManager];
+    BOOL exist = [self isExistAtPath:filePath];
+    // 文件或文件夹不存在
+    if (NO == exist) {
+        return YES;
+    }
     NSError *error;
     BOOL isSuccess = [fileManager removeItemAtPath:filePath error:&error];
-    if (!isSuccess) {
+    if (NO == isSuccess) {
         LZStorageLog(@"删除文件或文件夹失败:%@", error.localizedDescription);
     }
     return isSuccess;
