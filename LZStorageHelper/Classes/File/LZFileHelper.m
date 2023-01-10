@@ -64,7 +64,12 @@
 /** 创建文件夹到指定的沙盒目录 */
 - (BOOL)createDirectory:(NSString *)directory
            toSearchPath:(NSSearchPathDirectory)searchPathDirectory {
-    NSAssert(nil != directory && directory.length, @"目录名称不能为空");
+    if (nil == directory || 0 == directory.length) {
+#if DEBUG
+        NSLog(@"目录名称不能为空");
+#endif
+        return NO;
+    }
     NSString *directoryPath = [self directoryPath:searchPathDirectory];
     directoryPath = [directoryPath stringByAppendingPathComponent:directory];
     return [self createFolder:directoryPath];
@@ -74,9 +79,24 @@
 - (BOOL)saveFileData:(NSData *)fileData
                 name:(NSString *)fileName
               toPath:(NSString *)toPath {
-    NSAssert(nil != fileData, @"文件 Data 不能为空");
-    NSAssert(nil != fileName && fileName.length, @"文件名不能空");
-    NSAssert(nil != toPath && toPath.length, @"文件路径不能空");
+    if (nil == fileData || 0 == fileData.length) {
+#if DEBUG
+        NSLog(@"文件 Data 不能为空");
+#endif
+        return NO;
+    }
+    if (nil == fileName || 0 == fileName.length) {
+#if DEBUG
+        NSLog(@"文件名不能空");
+#endif
+        return NO;
+    }
+    if (nil == toPath || 0 == toPath.length) {
+#if DEBUG
+        NSLog(@"文件路径不能空");
+#endif
+        return NO;
+    }
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if (![self isExistAtPath:toPath])
         [fileManager createDirectoryAtPath:toPath
@@ -269,9 +289,15 @@
  @return 文件夹大小 单位: KB
  */
 - (unsigned long long)folderSizeAtPath:(NSString *)atPath {
-    NSAssert(nil != atPath && atPath.length, @"文件夹不能为空");
-    NSArray *filePathArray = [self takeAllFilePathFromDirectory:atPath];
+    
     __block unsigned long long totalSize = 0.0;
+    if (nil == atPath || 0 == atPath.length) {
+#if DEBUG
+        NSLog(@"文件夹不能为空");
+#endif
+        return totalSize;
+    }
+    NSArray *filePathArray = [self takeAllFilePathFromDirectory:atPath];
     [filePathArray enumerateObjectsUsingBlock:^(NSString *fullPath, NSUInteger idx, BOOL * _Nonnull stop) {
          totalSize += [self fileSizeAtPath:fullPath];
     }];
@@ -292,8 +318,18 @@
 - (BOOL)moveFileFromPath:(NSString *)fromPath
                   toPath:(NSString *)toPath
                isCovered:(BOOL)isCovered {
-    NSAssert(nil != fromPath && fromPath.length, @"要移动的文件不能为空");
-    NSAssert(nil != toPath && toPath.length, @"移动到的路径不能为空");
+    if (nil == fromPath || 0 == fromPath.length) {
+#if DEBUG
+        NSLog(@"要移动的文件不能为空");
+#endif
+        return NO;
+    }
+    if (nil == toPath || 0 == toPath.length) {
+#if DEBUG
+        NSLog(@"移动到的路径不能为空");
+#endif
+        return NO;
+    }
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if (isCovered) [fileManager removeItemAtPath:toPath error:NULL];
     NSError *error;
@@ -393,7 +429,12 @@
  */
 - (BOOL)existAtPath:(NSString *)atPath
         isDirectory:(BOOL *)isDirectory {
-    NSAssert(nil != atPath && atPath.length, @"文件或文件夹不能为空");
+    if (nil == atPath || 0 == atPath.length) {
+#if DEBUG
+        NSLog(@"文件或文件夹不能为空");
+#endif
+        return NO;
+    }
     NSFileManager *fileManager = [NSFileManager defaultManager];
     BOOL isExist = [fileManager fileExistsAtPath:atPath
                                      isDirectory:isDirectory];
