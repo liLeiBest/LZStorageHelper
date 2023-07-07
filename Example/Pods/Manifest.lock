@@ -1,9 +1,9 @@
 PODS:
-  - LZStorageHelper (0.1.2):
-    - LZStorageHelper/File (= 0.1.2)
-    - LZStorageHelper/UserDefaults (= 0.1.2)
-  - LZStorageHelper/File (0.1.2)
-  - LZStorageHelper/UserDefaults (0.1.2)
+  - LZStorageHelper (0.1.3):
+    - LZStorageHelper/File (= 0.1.3)
+    - LZStorageHelper/UserDefaults (= 0.1.3)
+  - LZStorageHelper/File (0.1.3)
+  - LZStorageHelper/UserDefaults (0.1.3)
 
 DEPENDENCIES:
   - LZStorageHelper (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LZStorageHelper: 6a1a4ace53bbecafc79f8591635c156f264438de
+  LZStorageHelper: 123a3090aa12dae3a2f1670364a834d5d1cf67c1
 
 PODFILE CHECKSUM: 6055119e6f87623fbca4df9204eaed58dd7a2625
 
